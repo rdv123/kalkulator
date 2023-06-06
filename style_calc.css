@@ -1,0 +1,60 @@
+.kalkulator {
+    display: flex;
+    justify-content: space-between;
+   
+  }
+  
+  .kalk_params {
+    padding: 10px 0;
+  }
+  
+  .kalk_params_item {
+    padding: 31px 0;
+  }
+  
+  .kalk_button {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 40px 0;
+    
+  }
+  .kalk_button_item {
+
+    display: flex;
+    padding: 0 10px;
+  }
+
+  .kalk_button_item :disabled {
+    opacity: 0.5;
+  }
+
+
+  .sheet_button_item {
+    display: flex;
+    justify-content: right;
+    padding: 0 10px;
+  }
+
+  .wrapper_sheet {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .label_input {
+    display: block;
+  }
+
+  input:invalid {
+    box-shadow: 0 0 5px 1px red;
+  }
+  
+  input:focus:invalid {
+    box-shadow: none;
+  }
+
+  .kalk_img_kolor {
+   max-width: 50%;
+   margin: 10px 0;
+  
+  }
